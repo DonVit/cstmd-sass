@@ -1,0 +1,16 @@
+{
+  "name": "cstmd-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/sass ./src/index.scss dist/index.css",
+    "watch": "./node_modules/.bin/sass --watch ./src/index.scss dist/index.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.23.3"
+  }
+}
